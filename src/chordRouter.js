@@ -1,4 +1,4 @@
-const expresas = require('express')
+const express = require('express')
 const uuid = require('uuid/v4')
 const PORT = process.env.PORT
 const { AudioStore, ProgStore } = require('./AudioStore')
@@ -22,7 +22,12 @@ chordRouter.route('/progressions')
         res.json(ProgStore)
     })
     .post((req, res) => {
-        const 
+        const { name, chords } = req.body
+        const id = uuid()
+        const progression = { id, name, chords }
+        //post to db
+        logger.info(`Progression with id ${id} stored.`)
+        res.status(201).location(`/progressions/`).json(result)
     })
 
 chordRouter.route('/progressions/:progressionId')
@@ -36,4 +41,8 @@ chordRouter.route('/progressions/:progressionId')
         }
 
         res.json(progression)
+    })
+    .delete((req, res) => {
+        const { id } = req.params
+        //delete from db
     })

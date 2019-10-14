@@ -1,0 +1,3 @@
+CREATE TABLE Scales (
+    name TEXT NOT NULL PRIMARY KEY
+);

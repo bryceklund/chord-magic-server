@@ -1,0 +1,1 @@
+TRUNCATE Notes CASCADE;
