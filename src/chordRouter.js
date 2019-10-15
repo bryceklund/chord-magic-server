@@ -2,6 +2,7 @@ const express = require('express')
 const uuid = require('uuid/v4')
 const PORT = process.env.PORT
 const { AudioStore, ProgStore } = require('./AudioStore')
+const ChordService = require('./chordService')
 
 const scales = AudioStore.chords
 const chordRouter = express.Router()
@@ -13,7 +14,7 @@ chordRouter.route('/scales')
     })
 
 chordRouter.route('/chords')
-    .get((req, res) => {
+    .get(bodyParser, (req, res) => {
         res.json(scales[req.body.scale])
     })
 
@@ -21,7 +22,7 @@ chordRouter.route('/progressions')
     .get((req, res) => {
         res.json(ProgStore)
     })
-    .post((req, res) => {
+    .post(bodyParser, (req, res) => {
         const { name, chords } = req.body
         const id = uuid()
         const progression = { id, name, chords }
@@ -46,3 +47,5 @@ chordRouter.route('/progressions/:progressionId')
         const { id } = req.params
         //delete from db
     })
+
+    module.exports = chordRouter

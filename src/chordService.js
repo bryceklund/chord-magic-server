@@ -18,3 +18,5 @@ const ChordService = {
         return knex('progressionchords').where('progressionid', id).orderBy('orderid').update(content)
     }
 }
+
+module.exports = ChordService
