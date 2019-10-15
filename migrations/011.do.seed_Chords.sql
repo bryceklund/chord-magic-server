@@ -63,7 +63,7 @@ VALUES
     -- Bb
     ('Bb', 'min', 'Bb'),
     ('Bb', 'min', 'Db'),
-    ('Bb', 'min', 'F',
+    ('Bb', 'min', 'F'),
     -- B
     ('B', 'min', 'B'),
     ('B', 'min', 'D'),
@@ -180,8 +180,8 @@ VALUES
     -- Bb
     ('Bb', 'min7', 'Bb'),
     ('Bb', 'min7', 'Db'),
-    ('Bb', 'min7', 'F',
-    ('Bb', 'min7', 'Ab',
+    ('Bb', 'min7', 'F'),
+    ('Bb', 'min7', 'Ab'),
     -- B
     ('B', 'min7', 'B'),
     ('B', 'min7', 'D'),
@@ -243,7 +243,7 @@ VALUES
     -- Bb
     ('Bb', 'dim', 'Bb'),
     ('Bb', 'dim', 'Db'),
-    ('Bb', 'dim', 'E',
+    ('Bb', 'dim', 'E'),
     -- B
     ('B', 'dim', 'B'),
     ('B', 'dim', 'D'),
@@ -503,4 +503,4 @@ VALUES
     -- Ab
     ('Ab', 'aug', 'Ab'),
     ('Ab', 'aug', 'C'),
-    ('Ab', 'aug', 'E'),
+    ('Ab', 'aug', 'E');
