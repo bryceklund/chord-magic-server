@@ -12,22 +12,25 @@ const ChordService = {
         return knex.select('note', 'frequency').from('frequencies').where('octave', oct)
     },
     getChord(knex, chord, scale) {
-        return knex.select('notes').from('chords').where({'name': chord, 'scale': scale})
+        return knex.select('notes').from('chords').where('name', 'ilike', chord).where('scale', 'ilike', scale)
     },
     getProgressions(knex, userid) {
-        return knex.select('*').from('progressions').where('userid', userid)
+        return knex.select('id', 'name').from('progressions').where('userid', userid)
     },
     getProgressionById(knex, id) {
         return knex.select('*').from('progressionchords').where('progressionid', id).orderBy('orderid')
     },
     saveProgression(knex, content) {
-        knex('progressions').insert(content)
+        return knex('progressions').insert(content).returning('*')
     },
     saveProgressionChords(knex, content) {
-        knex('progressionchords').insert(content)
+        return knex('progressionchords').insert(content).returning('*')
     },
     deleteProgression(knex, id) {
         return knex('progressions').where('id', id).delete()
+    },
+    deleteProgressionChords(knex, id) {
+        return knex('progressionchords').where('progressionid', id).delete()
     },
     updateProgression(knex, id, content) {
         return knex('progressionchords').where('progressionid', id).orderBy('orderid').update(content)

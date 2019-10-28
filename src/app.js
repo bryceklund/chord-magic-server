@@ -12,7 +12,10 @@ const app = express()
 const morganOption = (NODE_ENV === 'production') ? 'tiny' : 'dev'
 
 app.use(morgan(morganOption))
-app.use(cors({ 'origin': CLIENT_ORIGIN }))
+app.use(cors({ 
+    'origin': CLIENT_ORIGIN,
+    'optionsSuccessStatus': 200
+}))
 app.use(helmet())
 
 app.use(function validateBearerToken(req, res, next) {
@@ -24,10 +27,6 @@ app.use(function validateBearerToken(req, res, next) {
         res.status(401).json({ error: 'Unauthorized request' })
     }
     next()
-})
-
-app.get('/', (req, res) => {
-    res.send('HELL WORLD')
 })
 
 app.use(function errorHandler(error, req, res, next) {
