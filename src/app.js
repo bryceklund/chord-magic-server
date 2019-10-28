@@ -6,6 +6,7 @@ const { CLIENT_ORIGIN } = require('./config')
 const helmet = require('helmet')
 const { NODE_ENV } = require('./config')
 const chordRouter = require('./chordRouter')
+const authRouter = require('./authRouter')
 
 const app = express()
 
@@ -41,5 +42,6 @@ app.use(function errorHandler(error, req, res, next) {
 })
 
 app.use(chordRouter)
+app.use(authRouter)
 
 module.exports = app
