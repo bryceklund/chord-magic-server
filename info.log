@@ -745,3 +745,13 @@
 {"message":"Storing chord 4 for progression 'My Fun Song!' with id aa8dc2d4-4649-4bb0-884e-85add75fbcae...","level":"info"}
 {"message":"Storing chord 5 for progression 'My Fun Song!' with id aa8dc2d4-4649-4bb0-884e-85add75fbcae...","level":"info"}
 {"message":"Storing chord 6 for progression 'My Fun Song!' with id aa8dc2d4-4649-4bb0-884e-85add75fbcae...","level":"info"}
+{"message":"Progression with id 37fcc1f7-5446-4dde-ac9d-79ea7a606326 stored.","level":"info"}
+{"message":"Storing chord 0 for progression 'New Song 1' with id 37fcc1f7-5446-4dde-ac9d-79ea7a606326...","level":"info"}
+{"message":"Storing chord 1 for progression 'New Song 1' with id 37fcc1f7-5446-4dde-ac9d-79ea7a606326...","level":"info"}
+{"message":"Storing chord 2 for progression 'New Song 1' with id 37fcc1f7-5446-4dde-ac9d-79ea7a606326...","level":"info"}
+{"message":"Storing chord 3 for progression 'New Song 1' with id 37fcc1f7-5446-4dde-ac9d-79ea7a606326...","level":"info"}
+{"message":"Storing chord 4 for progression 'New Song 1' with id 37fcc1f7-5446-4dde-ac9d-79ea7a606326...","level":"info"}
+{"message":"Storing chord 6 for progression 'New Song 1' with id 37fcc1f7-5446-4dde-ac9d-79ea7a606326...","level":"info"}
+{"message":"Storing chord 5 for progression 'New Song 1' with id 37fcc1f7-5446-4dde-ac9d-79ea7a606326...","level":"info"}
+{"message":"Progression with id 4a4e9797-abf9-4d7e-aa69-158968835ddc deleted.","level":"info"}
+{"message":"Progression with id aa8dc2d4-4649-4bb0-884e-85add75fbcae deleted.","level":"info"}

@@ -4,15 +4,32 @@ const AuthService = require('./authService')
 const authRouter = express.Router()
 const bodyParser = express.json()
 
-authRouter.route('/login')
+authRouter.route('/api/login')
     .post(bodyParser, (req, res, next) => {
+        const knexInstance = req.app.get('db')
         const { username, password } = req.body
         const loginUser = { username, password }
-        for (const [key, value] of Object.entries(loginUser)) {
-            value == null 
-                ? res.status(400).json({ error: `Missing ${key} in request body` })
-                : res.send('ok')
-        }
+        Object.keys(loginUser).forEach(k => {
+            if (loginUser[k] == null) {
+                return res.status(400).json({ error: `Missing ${key} in request body` }) 
+            }
+        })
+
+        AuthService.getUserWithUsername(knexInstance, loginUser.username)  
+            .then(dbUser => {
+                if (!dbUser) {
+                    res.status(400).json({ error: 'Invalid username or password!' })
+                }
+                
+                return AuthService.checkPassword(loginUser.password, dbUser.password)
+                        .then(compareMatch => {
+                            if (!compareMatch) {
+                                return res.status(400).json({ error: 'Invalid username or password!' })
+                            }
+                            res.send('ok')
+                        })
+            })
+            .catch(next)
     })
 
 module.exports = authRouter
