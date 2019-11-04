@@ -15,18 +15,25 @@ authRouter.route('/api/login')
             }
         })
 
-        AuthService.getUserWithUsername(knexInstance, loginUser.username)  
+        AuthService.getUserWithUsername(knexInstance, loginUser.username)  //verify username
             .then(dbUser => {
+                console.log(dbUser)
                 if (!dbUser) {
                     res.status(400).json({ error: 'Invalid username or password!' })
                 }
                 
-                return AuthService.checkPassword(loginUser.password, dbUser.password)
+                return AuthService.checkPassword(loginUser.password, dbUser.password) //verify password
                         .then(compareMatch => {
                             if (!compareMatch) {
                                 return res.status(400).json({ error: 'Invalid username or password!' })
                             }
-                            res.send('ok')
+                            
+                            const sub = dbUser.username
+                            const payload = { userid: dbUser.id }
+                            res.send({
+                                authToken: AuthService.createJwt(sub, payload),
+                                userid: dbUser.id
+                            })
                         })
             })
             .catch(next)
