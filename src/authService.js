@@ -14,6 +14,13 @@ const AuthService = {
             subject,
             algorithm: 'HS256'
         })
+    },
+    verifyJwt(token) {
+        return jwt.verify(token, config.JWT_SECRET, { algorithms: ['HS256'] })
+    },
+    makeAuthHeader(user, secret=process.env.JWT_SECRET) {
+        const token = jwt.sign({ userid: user.id }, secret, { subject: user.username, algorithm: 'HS256' })
+        return `Bearer ${token}`
     }
 }
 
