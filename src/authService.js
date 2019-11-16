@@ -6,6 +6,9 @@ const AuthService = {
     getUserWithUsername(knex, username) {
         return knex('users').where({ username }).first()
     },
+    addUser(knex, username, password) {
+        return knex('users').returning('username').insert({ username: username, password: password })
+    },
     checkPassword(password, hash) {
         return bcrypt.compare(password, hash)
     },
@@ -21,7 +24,8 @@ const AuthService = {
     makeAuthHeader(user, secret=process.env.JWT_SECRET) {
         const token = jwt.sign({ userid: user.id }, secret, { subject: user.username, algorithm: 'HS256' })
         return `Bearer ${token}`
-    }
+    },
+    
 }
 
 module.exports = AuthService

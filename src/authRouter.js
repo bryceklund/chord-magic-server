@@ -17,7 +17,6 @@ authRouter.route('/api/login')
 
         AuthService.getUserWithUsername(knexInstance, loginUser.username)  //verify username
             .then(dbUser => {
-                console.log(dbUser)
                 if (!dbUser) {
                     res.status(400).json({ error: 'Invalid username or password!' })
                 }
@@ -32,7 +31,7 @@ authRouter.route('/api/login')
                             const payload = { userid: dbUser.id }
                             res.send({
                                 authToken: AuthService.createJwt(sub, payload),
-                                userid: dbUser.id
+                                //userid: dbUser.id id is within authtoken
                             })
                         })
             })

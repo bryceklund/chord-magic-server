@@ -4,10 +4,29 @@ const logger = require('./logger')
 const PORT = process.env.PORT
 const { AudioStore, ProgStore } = require('./AudioStore')
 const ChordService = require('./chordService')
+const AuthService = require('./authService')
 const xss = require('xss')
+const bcrypt = require('bcryptjs')
 
 const chordRouter = express.Router()
 const bodyParser = express.json()
+
+function requireAuth(req, res, next) {
+    const authToken = req.get('Authorization') || ''
+    let bearerToken
+    if (!authToken.toLowerCase().startsWith('bearer ')) {
+        return res.status(401).json({ error: 'Missing bearer token' })
+    } else {
+        bearerToken = authToken.split(' ')[2]
+    }
+
+    try {
+        AuthService.verifyJwt(bearerToken)
+        next()
+    } catch(error) {
+        res.status(401).json({ error: 'Unauthorized request' })
+    }
+}
 
 chordRouter.route('/api/scales')
     .get((req, res, next) => {
@@ -53,18 +72,21 @@ chordRouter.route('/api/chord/:scale/:chord')
             .catch(next)
     })
 
-chordRouter.route('/api/progressions/:userid')
-    .get((req, res, next) => {
+chordRouter.route('/api/progressions/saved') 
+    .all(requireAuth) 
+    .get(bodyParser, (req, res, next) => {
         const knexInstance = req.app.get('db')
-        const { userid } = req.params
+        const userid = AuthService.verifyJwt(req.get('Authorization').split(' ')[2]).userid
         ChordService.getProgressions(knexInstance, userid)
             .then(result => res.json(result))
             .catch(next)
     })
     .post(bodyParser, (req, res, next) => {
         const knexInstance = req.app.get('db')
-        const { name, chords } = req.body
-        const { userid } = req.params
+        const { bodyName, bodyChords } = req.body
+        const name = xss(bodyName)
+        const chords = xss(bodyChords)
+        const userid = AuthService.verifyJwt(req.get('Authorization').split(' ')[2]).userid
         const id = uuid()
         const progression = { id, name, userid }
         const progressionChords = []
@@ -99,6 +121,7 @@ chordRouter.route('/api/progressions/:userid')
     })
 
 chordRouter.route('/api/progressionchords/:progressionId')
+    .all(requireAuth) //token validation
     .get((req, res, next) => { //need format data for `timeline.state.activeChords` and we should be golden. sidenote: need patch/edit logic in the frontend
         const { progressionId } = req.params
         const knexInstance = req.app.get('db')
@@ -169,5 +192,39 @@ chordRouter.route('/api/progressionchords/:progressionId')
             })
             .then(result => res.status(200).send(`Progression ${progressionId} overwritten.`))
     })
+
+chordRouter.route('/api/users')
+    .post(bodyParser, (req, res, next) => {
+        const knexInstance = req.app.get('db')
+        const { username, password } = req.body
+        const cleanUser = xss(username)
+        AuthService.getUserWithUsername(knexInstance, username)
+            .then(user => {
+                if (user) {
+                    return res.status(400).json({ error: `User '${user.username}' already exists` })
+                }
+            })
+            .then(hashPass => {
+                return bcrypt.hash(password, 12)
+                    .then(cleanPass => {
+                        return AuthService.addUser(knexInstance, cleanUser, cleanPass)
+                            .then(user => {
+                                return AuthService.getUserWithUsername(knexInstance, username)
+                                        .then(user => {
+                                            return user.username
+                                        })
+                            })
+                    })
+            })
+            .then(username => {
+                if (!username) {
+                    return res.status(400).json({ error: 'Something went wrong' })
+                }
+                return res.status(201).send(`User '${username}' created`)
+            })
+            .catch(next)
+
+
+    }) 
 
     module.exports = chordRouter

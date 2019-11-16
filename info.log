@@ -755,3 +755,27 @@
 {"message":"Storing chord 5 for progression 'New Song 1' with id 37fcc1f7-5446-4dde-ac9d-79ea7a606326...","level":"info"}
 {"message":"Progression with id 4a4e9797-abf9-4d7e-aa69-158968835ddc deleted.","level":"info"}
 {"message":"Progression with id aa8dc2d4-4649-4bb0-884e-85add75fbcae deleted.","level":"info"}
+{"message":"Progression with id bb48b82f-e020-4dd2-9cd0-5e415e341b9c stored.","level":"info"}
+{"message":"Storing chord 1 for progression 'new progression' with id bb48b82f-e020-4dd2-9cd0-5e415e341b9c...","level":"info"}
+{"message":"Storing chord 0 for progression 'new progression' with id bb48b82f-e020-4dd2-9cd0-5e415e341b9c...","level":"info"}
+{"message":"Storing chord 2 for progression 'new progression' with id bb48b82f-e020-4dd2-9cd0-5e415e341b9c...","level":"info"}
+{"message":"Storing chord 5 for progression 'new progression' with id bb48b82f-e020-4dd2-9cd0-5e415e341b9c...","level":"info"}
+{"message":"Storing chord 3 for progression 'new progression' with id bb48b82f-e020-4dd2-9cd0-5e415e341b9c...","level":"info"}
+{"message":"Storing chord 4 for progression 'new progression' with id bb48b82f-e020-4dd2-9cd0-5e415e341b9c...","level":"info"}
+{"message":"Storing chord 6 for progression 'new progression' with id bb48b82f-e020-4dd2-9cd0-5e415e341b9c...","level":"info"}
+{"message":"Progression with id 4788abcf-25de-444a-b63f-fdaf042270a3 stored.","level":"info"}
+{"message":"Storing chord 0 for progression 'test 1' with id 4788abcf-25de-444a-b63f-fdaf042270a3...","level":"info"}
+{"message":"Storing chord 1 for progression 'test 1' with id 4788abcf-25de-444a-b63f-fdaf042270a3...","level":"info"}
+{"message":"Storing chord 2 for progression 'test 1' with id 4788abcf-25de-444a-b63f-fdaf042270a3...","level":"info"}
+{"message":"Storing chord 5 for progression 'test 1' with id 4788abcf-25de-444a-b63f-fdaf042270a3...","level":"info"}
+{"message":"Storing chord 6 for progression 'test 1' with id 4788abcf-25de-444a-b63f-fdaf042270a3...","level":"info"}
+{"message":"Storing chord 3 for progression 'test 1' with id 4788abcf-25de-444a-b63f-fdaf042270a3...","level":"info"}
+{"message":"Storing chord 4 for progression 'test 1' with id 4788abcf-25de-444a-b63f-fdaf042270a3...","level":"info"}
+{"message":"Progression with id 1ab2ae23-723c-477b-838b-55ddf8e28e78 stored.","level":"info"}
+{"message":"Storing chord 0 for progression 'new song' with id 1ab2ae23-723c-477b-838b-55ddf8e28e78...","level":"info"}
+{"message":"Storing chord 1 for progression 'new song' with id 1ab2ae23-723c-477b-838b-55ddf8e28e78...","level":"info"}
+{"message":"Storing chord 2 for progression 'new song' with id 1ab2ae23-723c-477b-838b-55ddf8e28e78...","level":"info"}
+{"message":"Storing chord 3 for progression 'new song' with id 1ab2ae23-723c-477b-838b-55ddf8e28e78...","level":"info"}
+{"message":"Storing chord 4 for progression 'new song' with id 1ab2ae23-723c-477b-838b-55ddf8e28e78...","level":"info"}
+{"message":"Storing chord 5 for progression 'new song' with id 1ab2ae23-723c-477b-838b-55ddf8e28e78...","level":"info"}
+{"message":"Storing chord 6 for progression 'new song' with id 1ab2ae23-723c-477b-838b-55ddf8e28e78...","level":"info"}

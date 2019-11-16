@@ -24,6 +24,8 @@
     "knex": "^0.19.5",
     "morgan": "^1.9.1",
     "pg": "^7.12.1",
+    "react-navigation": "^4.0.10",
+    "react-navigation-stack": "^1.10.3",
     "uuid": "^3.3.3",
     "winston": "^3.2.1",
     "xss": "^1.0.6"
