@@ -779,3 +779,292 @@
 {"message":"Storing chord 4 for progression 'new song' with id 1ab2ae23-723c-477b-838b-55ddf8e28e78...","level":"info"}
 {"message":"Storing chord 5 for progression 'new song' with id 1ab2ae23-723c-477b-838b-55ddf8e28e78...","level":"info"}
 {"message":"Storing chord 6 for progression 'new song' with id 1ab2ae23-723c-477b-838b-55ddf8e28e78...","level":"info"}
+{"message":"Progression with id 2123bafd-5458-4454-91e4-36fe941c84ea stored.","level":"info"}
+{"message":"Progression with id 00c81387-a0bb-450e-9b20-99d8670ebc4e stored.","level":"info"}
+{"message":"Storing chord 0 for progression 'test progression' with id 00c81387-a0bb-450e-9b20-99d8670ebc4e...","level":"info"}
+{"message":"Storing chord 1 for progression 'test progression' with id 00c81387-a0bb-450e-9b20-99d8670ebc4e...","level":"info"}
+{"message":"Storing chord 3 for progression 'test progression' with id 00c81387-a0bb-450e-9b20-99d8670ebc4e...","level":"info"}
+{"message":"Storing chord 2 for progression 'test progression' with id 00c81387-a0bb-450e-9b20-99d8670ebc4e...","level":"info"}
+{"message":"Storing chord 4 for progression 'test progression' with id 00c81387-a0bb-450e-9b20-99d8670ebc4e...","level":"info"}
+{"message":"Storing chord 5 for progression 'test progression' with id 00c81387-a0bb-450e-9b20-99d8670ebc4e...","level":"info"}
+{"message":"Storing chord 6 for progression 'test progression' with id 00c81387-a0bb-450e-9b20-99d8670ebc4e...","level":"info"}
+{"message":"Progression with id e444ae3f-dd02-4516-89a5-2d26409816c5 stored.","level":"info"}
+{"message":"Storing chord 0 for progression 'new progression' with id e444ae3f-dd02-4516-89a5-2d26409816c5...","level":"info"}
+{"message":"Progression with id e64b0e6b-b818-49c3-9fa7-f3c3cee17601 stored.","level":"info"}
+{"message":"Storing chord undefined for progression 'new progression' with id e64b0e6b-b818-49c3-9fa7-f3c3cee17601...","level":"info"}
+{"message":"Progression with id 4d0feab1-e383-4ec0-ae9b-8cc4bde77bde stored.","level":"info"}
+{"message":"Storing chord undefined for progression 'new progression' with id 4d0feab1-e383-4ec0-ae9b-8cc4bde77bde...","level":"info"}
+{"message":"Progression with id 5e9e6a70-5a0a-4676-b3c8-127c8a07d604 stored.","level":"info"}
+{"message":"Storing chord undefined for progression 'new progression' with id 5e9e6a70-5a0a-4676-b3c8-127c8a07d604...","level":"info"}
+{"message":"Progression with id 20c743ee-77d0-40cb-b2c6-71095cf9e302 stored.","level":"info"}
+{"message":"Storing chord 0 for progression 'new progression' with id 20c743ee-77d0-40cb-b2c6-71095cf9e302...","level":"info"}
+{"message":"Progression with id 622c5c90-bf7e-4eb3-8bcd-8fcad93262cb stored.","level":"info"}
+{"message":"Storing chord 0 for progression 'new progression' with id 622c5c90-bf7e-4eb3-8bcd-8fcad93262cb...","level":"info"}
+{"message":"Progression with id e9cf046b-7129-4ca7-ace5-66ee716123c2 stored.","level":"info"}
+{"message":"Storing chord 0 for progression 'new progression' with id e9cf046b-7129-4ca7-ace5-66ee716123c2...","level":"info"}
+{"message":"Progression with id 68c02845-2084-405a-9662-14360c139bbc stored.","level":"info"}
+{"message":"Storing chord 0 for progression 'new progression' with id 68c02845-2084-405a-9662-14360c139bbc...","level":"info"}
+{"message":"Progression with id f925742c-6ae1-4a3c-b0d7-5c4ea8cbcf86 stored.","level":"info"}
+{"message":"Storing chord 0 for progression 'new progression' with id f925742c-6ae1-4a3c-b0d7-5c4ea8cbcf86...","level":"info"}
+{"message":"Progression with id 98b1d2b4-de7e-4f77-91b4-b88a7d8dceac stored.","level":"info"}
+{"message":"Storing chord 0 for progression 'new progression' with id 98b1d2b4-de7e-4f77-91b4-b88a7d8dceac...","level":"info"}
+{"message":"Progression with id 5b3774c2-2406-421a-932d-a40373c969f6 stored.","level":"info"}
+{"message":"Storing chord 0 for progression 'new progression' with id 5b3774c2-2406-421a-932d-a40373c969f6...","level":"info"}
+{"message":"Progression with id c76c94ec-6fa1-4e1d-8d2c-27a3b76a2c20 stored.","level":"info"}
+{"message":"Storing chord 0 for progression 'new progression' with id c76c94ec-6fa1-4e1d-8d2c-27a3b76a2c20...","level":"info"}
+{"message":"Progression with id 21469cb0-87fc-449a-af59-8e2bb3f36147 stored.","level":"info"}
+{"message":"Storing chord 0 for progression 'new progression' with id 21469cb0-87fc-449a-af59-8e2bb3f36147...","level":"info"}
+{"message":"Progression with id 00c81387-a0bb-450e-9b20-99d8670ebc4e not found.","level":"error"}
+{"message":"Progression with id f250f4e2-48d9-4381-a49d-a531ff182f1b stored.","level":"info"}
+{"message":"Storing chord 0 for progression 'new progression' with id f250f4e2-48d9-4381-a49d-a531ff182f1b...","level":"info"}
+{"message":"Storing chord 1 for progression 'new progression' with id f250f4e2-48d9-4381-a49d-a531ff182f1b...","level":"info"}
+{"message":"Progression with id 21469cb0-87fc-449a-af59-8e2bb3f36147 not found.","level":"error"}
+{"message":"Progression with id 4d47faa7-1611-4ef4-9733-f9b9b5720e8e stored.","level":"info"}
+{"message":"Storing chord 0 for progression 'new progression' with id 4d47faa7-1611-4ef4-9733-f9b9b5720e8e...","level":"info"}
+{"message":"Storing chord 1 for progression 'new progression' with id 4d47faa7-1611-4ef4-9733-f9b9b5720e8e...","level":"info"}
+{"message":"Storing chord 2 for progression 'new progression' with id 4d47faa7-1611-4ef4-9733-f9b9b5720e8e...","level":"info"}
+{"message":"Storing chord 3 for progression 'new progression' with id 4d47faa7-1611-4ef4-9733-f9b9b5720e8e...","level":"info"}
+{"message":"Storing chord 5 for progression 'new progression' with id 4d47faa7-1611-4ef4-9733-f9b9b5720e8e...","level":"info"}
+{"message":"Storing chord 4 for progression 'new progression' with id 4d47faa7-1611-4ef4-9733-f9b9b5720e8e...","level":"info"}
+{"message":"Storing chord 6 for progression 'new progression' with id 4d47faa7-1611-4ef4-9733-f9b9b5720e8e...","level":"info"}
+{"message":"Progression with id fa2110b9-f1af-4167-9084-cf30ad1b7307 stored.","level":"info"}
+{"message":"Storing chord 0 for progression 'new progression' with id fa2110b9-f1af-4167-9084-cf30ad1b7307...","level":"info"}
+{"message":"Storing chord 1 for progression 'new progression' with id fa2110b9-f1af-4167-9084-cf30ad1b7307...","level":"info"}
+{"message":"Storing chord 3 for progression 'new progression' with id fa2110b9-f1af-4167-9084-cf30ad1b7307...","level":"info"}
+{"message":"Storing chord 4 for progression 'new progression' with id fa2110b9-f1af-4167-9084-cf30ad1b7307...","level":"info"}
+{"message":"Storing chord 2 for progression 'new progression' with id fa2110b9-f1af-4167-9084-cf30ad1b7307...","level":"info"}
+{"message":"Storing chord 5 for progression 'new progression' with id fa2110b9-f1af-4167-9084-cf30ad1b7307...","level":"info"}
+{"message":"Storing chord 6 for progression 'new progression' with id fa2110b9-f1af-4167-9084-cf30ad1b7307...","level":"info"}
+{"message":"Progression with id a31a1a3b-7258-4fa5-acbc-9e3a61367662 stored.","level":"info"}
+{"message":"Storing chord 0 for progression 'new progression' with id a31a1a3b-7258-4fa5-acbc-9e3a61367662...","level":"info"}
+{"message":"Storing chord 1 for progression 'new progression' with id a31a1a3b-7258-4fa5-acbc-9e3a61367662...","level":"info"}
+{"message":"Storing chord 3 for progression 'new progression' with id a31a1a3b-7258-4fa5-acbc-9e3a61367662...","level":"info"}
+{"message":"Storing chord 4 for progression 'new progression' with id a31a1a3b-7258-4fa5-acbc-9e3a61367662...","level":"info"}
+{"message":"Storing chord 2 for progression 'new progression' with id a31a1a3b-7258-4fa5-acbc-9e3a61367662...","level":"info"}
+{"message":"Storing chord 6 for progression 'new progression' with id a31a1a3b-7258-4fa5-acbc-9e3a61367662...","level":"info"}
+{"message":"Storing chord 5 for progression 'new progression' with id a31a1a3b-7258-4fa5-acbc-9e3a61367662...","level":"info"}
+{"message":"Progression with id 21469cb0-87fc-449a-af59-8e2bb3f36147 deleted.","level":"info"}
+{"message":"Progression with id f72a4078-badc-4725-adaf-19e967d62491 stored.","level":"info"}
+{"message":"Storing chord 0 for progression 'new progression' with id f72a4078-badc-4725-adaf-19e967d62491...","level":"info"}
+{"message":"Storing chord 1 for progression 'new progression' with id f72a4078-badc-4725-adaf-19e967d62491...","level":"info"}
+{"message":"Storing chord 2 for progression 'new progression' with id f72a4078-badc-4725-adaf-19e967d62491...","level":"info"}
+{"message":"Storing chord 3 for progression 'new progression' with id f72a4078-badc-4725-adaf-19e967d62491...","level":"info"}
+{"message":"Storing chord 5 for progression 'new progression' with id f72a4078-badc-4725-adaf-19e967d62491...","level":"info"}
+{"message":"Storing chord 4 for progression 'new progression' with id f72a4078-badc-4725-adaf-19e967d62491...","level":"info"}
+{"message":"Storing chord 6 for progression 'new progression' with id f72a4078-badc-4725-adaf-19e967d62491...","level":"info"}
+{"message":"Progression with id 21469cb0-87fc-449a-af59-8e2bb3f36147 deleted.","level":"info"}
+{"message":"Progression with id 38cee0d0-c6c4-4a75-9ee4-c91fee1c5f04 stored.","level":"info"}
+{"message":"Storing chord 0 for progression 'new progression' with id 38cee0d0-c6c4-4a75-9ee4-c91fee1c5f04...","level":"info"}
+{"message":"Storing chord 1 for progression 'new progression' with id 38cee0d0-c6c4-4a75-9ee4-c91fee1c5f04...","level":"info"}
+{"message":"Storing chord 3 for progression 'new progression' with id 38cee0d0-c6c4-4a75-9ee4-c91fee1c5f04...","level":"info"}
+{"message":"Storing chord 2 for progression 'new progression' with id 38cee0d0-c6c4-4a75-9ee4-c91fee1c5f04...","level":"info"}
+{"message":"Storing chord 5 for progression 'new progression' with id 38cee0d0-c6c4-4a75-9ee4-c91fee1c5f04...","level":"info"}
+{"message":"Storing chord 4 for progression 'new progression' with id 38cee0d0-c6c4-4a75-9ee4-c91fee1c5f04...","level":"info"}
+{"message":"Progression with id 21469cb0-87fc-449a-af59-8e2bb3f36147 not found.","level":"error"}
+{"message":"Storing chord 6 for progression 'new progression' with id 38cee0d0-c6c4-4a75-9ee4-c91fee1c5f04...","level":"info"}
+{"message":"Progression with id d024cc3b-671f-478d-9f50-31685cb52541 stored.","level":"info"}
+{"message":"Storing chord 0 for progression 'new progression' with id d024cc3b-671f-478d-9f50-31685cb52541...","level":"info"}
+{"message":"Storing chord 1 for progression 'new progression' with id d024cc3b-671f-478d-9f50-31685cb52541...","level":"info"}
+{"message":"Storing chord 3 for progression 'new progression' with id d024cc3b-671f-478d-9f50-31685cb52541...","level":"info"}
+{"message":"Storing chord 2 for progression 'new progression' with id d024cc3b-671f-478d-9f50-31685cb52541...","level":"info"}
+{"message":"Storing chord 4 for progression 'new progression' with id d024cc3b-671f-478d-9f50-31685cb52541...","level":"info"}
+{"message":"Storing chord 5 for progression 'new progression' with id d024cc3b-671f-478d-9f50-31685cb52541...","level":"info"}
+{"message":"Storing chord 6 for progression 'new progression' with id d024cc3b-671f-478d-9f50-31685cb52541...","level":"info"}
+{"message":"Progression with id 8dfd17e9-1219-44a0-b4d1-a64c14d55e4f deleted.","level":"info"}
+{"message":"Overwriting chord 0 for progression 'G' with id 21469cb0-87fc-449a-af59-8e2bb3f36147...","level":"info"}
+{"message":"Overwriting chord 2 for progression 'E' with id 21469cb0-87fc-449a-af59-8e2bb3f36147...","level":"info"}
+{"message":"Overwriting chord 1 for progression 'B' with id 21469cb0-87fc-449a-af59-8e2bb3f36147...","level":"info"}
+{"message":"Overwriting chord 3 for progression 'C' with id 21469cb0-87fc-449a-af59-8e2bb3f36147...","level":"info"}
+{"message":"Overwriting chord 5 for progression 'B' with id 21469cb0-87fc-449a-af59-8e2bb3f36147...","level":"info"}
+{"message":"Overwriting chord 4 for progression 'G' with id 21469cb0-87fc-449a-af59-8e2bb3f36147...","level":"info"}
+{"message":"Overwriting chord 6 for progression 'C' with id 21469cb0-87fc-449a-af59-8e2bb3f36147...","level":"info"}
+{"message":"Progression with id 83b3b216-9539-4c9b-9b26-538805fe2413 stored.","level":"info"}
+{"message":"Storing chord 0 for progression 'new progression' with id 83b3b216-9539-4c9b-9b26-538805fe2413...","level":"info"}
+{"message":"Storing chord 1 for progression 'new progression' with id 83b3b216-9539-4c9b-9b26-538805fe2413...","level":"info"}
+{"message":"Storing chord 2 for progression 'new progression' with id 83b3b216-9539-4c9b-9b26-538805fe2413...","level":"info"}
+{"message":"Storing chord 3 for progression 'new progression' with id 83b3b216-9539-4c9b-9b26-538805fe2413...","level":"info"}
+{"message":"Storing chord 4 for progression 'new progression' with id 83b3b216-9539-4c9b-9b26-538805fe2413...","level":"info"}
+{"message":"Storing chord 5 for progression 'new progression' with id 83b3b216-9539-4c9b-9b26-538805fe2413...","level":"info"}
+{"message":"Storing chord 6 for progression 'new progression' with id 83b3b216-9539-4c9b-9b26-538805fe2413...","level":"info"}
+{"message":"Progression with id 8dfd17e9-1219-44a0-b4d1-a64c14d55e4f deleted.","level":"info"}
+{"message":"Overwriting chord 0 for progression 'G' with id 21469cb0-87fc-449a-af59-8e2bb3f36147...","level":"info"}
+{"message":"Overwriting chord 1 for progression 'B' with id 21469cb0-87fc-449a-af59-8e2bb3f36147...","level":"info"}
+{"message":"Overwriting chord 2 for progression 'E' with id 21469cb0-87fc-449a-af59-8e2bb3f36147...","level":"info"}
+{"message":"Overwriting chord 3 for progression 'C' with id 21469cb0-87fc-449a-af59-8e2bb3f36147...","level":"info"}
+{"message":"Overwriting chord 4 for progression 'G' with id 21469cb0-87fc-449a-af59-8e2bb3f36147...","level":"info"}
+{"message":"Overwriting chord 5 for progression 'B' with id 21469cb0-87fc-449a-af59-8e2bb3f36147...","level":"info"}
+{"message":"Overwriting chord 6 for progression 'C' with id 21469cb0-87fc-449a-af59-8e2bb3f36147...","level":"info"}
+{"message":"Progression with id 55769a95-9e92-4f6c-87f4-5bd3556a3a38 stored.","level":"info"}
+{"message":"Storing chord 0 for progression 'new progression' with id 55769a95-9e92-4f6c-87f4-5bd3556a3a38...","level":"info"}
+{"message":"Storing chord 1 for progression 'new progression' with id 55769a95-9e92-4f6c-87f4-5bd3556a3a38...","level":"info"}
+{"message":"Storing chord 3 for progression 'new progression' with id 55769a95-9e92-4f6c-87f4-5bd3556a3a38...","level":"info"}
+{"message":"Storing chord 2 for progression 'new progression' with id 55769a95-9e92-4f6c-87f4-5bd3556a3a38...","level":"info"}
+{"message":"Storing chord 5 for progression 'new progression' with id 55769a95-9e92-4f6c-87f4-5bd3556a3a38...","level":"info"}
+{"message":"Storing chord 6 for progression 'new progression' with id 55769a95-9e92-4f6c-87f4-5bd3556a3a38...","level":"info"}
+{"message":"Storing chord 4 for progression 'new progression' with id 55769a95-9e92-4f6c-87f4-5bd3556a3a38...","level":"info"}
+{"message":"Progression with id 8dfd17e9-1219-44a0-b4d1-a64c14d55e4f deleted.","level":"info"}
+{"message":"Overwriting chord 0 for progression 'G' with id 21469cb0-87fc-449a-af59-8e2bb3f36147...","level":"info"}
+{"message":"Overwriting chord 2 for progression 'E' with id 21469cb0-87fc-449a-af59-8e2bb3f36147...","level":"info"}
+{"message":"Overwriting chord 3 for progression 'C' with id 21469cb0-87fc-449a-af59-8e2bb3f36147...","level":"info"}
+{"message":"Overwriting chord 4 for progression 'G' with id 21469cb0-87fc-449a-af59-8e2bb3f36147...","level":"info"}
+{"message":"Overwriting chord 5 for progression 'B' with id 21469cb0-87fc-449a-af59-8e2bb3f36147...","level":"info"}
+{"message":"Overwriting chord 6 for progression 'C' with id 21469cb0-87fc-449a-af59-8e2bb3f36147...","level":"info"}
+{"message":"Overwriting chord 1 for progression 'B' with id 21469cb0-87fc-449a-af59-8e2bb3f36147...","level":"info"}
+{"message":"Progression with id a15b21fc-5d33-41a9-9de9-e9c6d6456938 stored.","level":"info"}
+{"message":"Storing chord 0 for progression 'new progression' with id a15b21fc-5d33-41a9-9de9-e9c6d6456938...","level":"info"}
+{"message":"Storing chord 1 for progression 'new progression' with id a15b21fc-5d33-41a9-9de9-e9c6d6456938...","level":"info"}
+{"message":"Storing chord 3 for progression 'new progression' with id a15b21fc-5d33-41a9-9de9-e9c6d6456938...","level":"info"}
+{"message":"Storing chord 2 for progression 'new progression' with id a15b21fc-5d33-41a9-9de9-e9c6d6456938...","level":"info"}
+{"message":"Storing chord 4 for progression 'new progression' with id a15b21fc-5d33-41a9-9de9-e9c6d6456938...","level":"info"}
+{"message":"Storing chord 6 for progression 'new progression' with id a15b21fc-5d33-41a9-9de9-e9c6d6456938...","level":"info"}
+{"message":"Storing chord 5 for progression 'new progression' with id a15b21fc-5d33-41a9-9de9-e9c6d6456938...","level":"info"}
+{"message":"Progression with id 8dfd17e9-1219-44a0-b4d1-a64c14d55e4f deleted.","level":"info"}
+{"message":"Overwriting chord 0 for progression 'G' with id 21469cb0-87fc-449a-af59-8e2bb3f36147...","level":"info"}
+{"message":"Overwriting chord 2 for progression 'E' with id 21469cb0-87fc-449a-af59-8e2bb3f36147...","level":"info"}
+{"message":"Overwriting chord 3 for progression 'C' with id 21469cb0-87fc-449a-af59-8e2bb3f36147...","level":"info"}
+{"message":"Overwriting chord 1 for progression 'B' with id 21469cb0-87fc-449a-af59-8e2bb3f36147...","level":"info"}
+{"message":"Overwriting chord 4 for progression 'G' with id 21469cb0-87fc-449a-af59-8e2bb3f36147...","level":"info"}
+{"message":"Overwriting chord 5 for progression 'B' with id 21469cb0-87fc-449a-af59-8e2bb3f36147...","level":"info"}
+{"message":"Overwriting chord 6 for progression 'C' with id 21469cb0-87fc-449a-af59-8e2bb3f36147...","level":"info"}
+{"message":"Progression with id 6aecdc4a-f7ba-46d5-87bd-d865c7109839 stored.","level":"info"}
+{"message":"Storing chord 0 for progression 'new progression' with id 6aecdc4a-f7ba-46d5-87bd-d865c7109839...","level":"info"}
+{"message":"Storing chord 1 for progression 'new progression' with id 6aecdc4a-f7ba-46d5-87bd-d865c7109839...","level":"info"}
+{"message":"Storing chord 2 for progression 'new progression' with id 6aecdc4a-f7ba-46d5-87bd-d865c7109839...","level":"info"}
+{"message":"Storing chord 3 for progression 'new progression' with id 6aecdc4a-f7ba-46d5-87bd-d865c7109839...","level":"info"}
+{"message":"Storing chord 4 for progression 'new progression' with id 6aecdc4a-f7ba-46d5-87bd-d865c7109839...","level":"info"}
+{"message":"Storing chord 5 for progression 'new progression' with id 6aecdc4a-f7ba-46d5-87bd-d865c7109839...","level":"info"}
+{"message":"Storing chord 6 for progression 'new progression' with id 6aecdc4a-f7ba-46d5-87bd-d865c7109839...","level":"info"}
+{"message":"Overwriting chord 0 for progression 'G' with id 21469cb0-87fc-449a-af59-8e2bb3f36147...","level":"info"}
+{"message":"Overwriting chord 2 for progression 'E' with id 21469cb0-87fc-449a-af59-8e2bb3f36147...","level":"info"}
+{"message":"Overwriting chord 3 for progression 'C' with id 21469cb0-87fc-449a-af59-8e2bb3f36147...","level":"info"}
+{"message":"Overwriting chord 4 for progression 'G' with id 21469cb0-87fc-449a-af59-8e2bb3f36147...","level":"info"}
+{"message":"Overwriting chord 1 for progression 'B' with id 21469cb0-87fc-449a-af59-8e2bb3f36147...","level":"info"}
+{"message":"Overwriting chord 5 for progression 'B' with id 21469cb0-87fc-449a-af59-8e2bb3f36147...","level":"info"}
+{"message":"Overwriting chord 6 for progression 'C' with id 21469cb0-87fc-449a-af59-8e2bb3f36147...","level":"info"}
+{"message":"Progression with id d5f853e0-94e7-4f86-8f41-b61305ef5ab4 stored.","level":"info"}
+{"message":"Storing chord 0 for progression 'new progression' with id d5f853e0-94e7-4f86-8f41-b61305ef5ab4...","level":"info"}
+{"message":"Storing chord 1 for progression 'new progression' with id d5f853e0-94e7-4f86-8f41-b61305ef5ab4...","level":"info"}
+{"message":"Storing chord 2 for progression 'new progression' with id d5f853e0-94e7-4f86-8f41-b61305ef5ab4...","level":"info"}
+{"message":"Storing chord 3 for progression 'new progression' with id d5f853e0-94e7-4f86-8f41-b61305ef5ab4...","level":"info"}
+{"message":"Storing chord 4 for progression 'new progression' with id d5f853e0-94e7-4f86-8f41-b61305ef5ab4...","level":"info"}
+{"message":"Storing chord 5 for progression 'new progression' with id d5f853e0-94e7-4f86-8f41-b61305ef5ab4...","level":"info"}
+{"message":"Storing chord 6 for progression 'new progression' with id d5f853e0-94e7-4f86-8f41-b61305ef5ab4...","level":"info"}
+{"message":"Progression with id 8dfd17e9-1219-44a0-b4d1-a64c14d55e4f deleted.","level":"info"}
+{"message":"Overwriting chord 0 for progression 'G' with id 21469cb0-87fc-449a-af59-8e2bb3f36147...","level":"info"}
+{"message":"Overwriting chord 1 for progression 'B' with id 21469cb0-87fc-449a-af59-8e2bb3f36147...","level":"info"}
+{"message":"Overwriting chord 2 for progression 'E' with id 21469cb0-87fc-449a-af59-8e2bb3f36147...","level":"info"}
+{"message":"Overwriting chord 3 for progression 'C' with id 21469cb0-87fc-449a-af59-8e2bb3f36147...","level":"info"}
+{"message":"Overwriting chord 4 for progression 'G' with id 21469cb0-87fc-449a-af59-8e2bb3f36147...","level":"info"}
+{"message":"Overwriting chord 5 for progression 'B' with id 21469cb0-87fc-449a-af59-8e2bb3f36147...","level":"info"}
+{"message":"Overwriting chord 6 for progression 'C' with id 21469cb0-87fc-449a-af59-8e2bb3f36147...","level":"info"}
+{"message":"Progression with id fab55882-36a2-4d70-88b2-0483ace19c52 stored.","level":"info"}
+{"message":"Storing chord 0 for progression 'new progression' with id fab55882-36a2-4d70-88b2-0483ace19c52...","level":"info"}
+{"message":"Storing chord 1 for progression 'new progression' with id fab55882-36a2-4d70-88b2-0483ace19c52...","level":"info"}
+{"message":"Storing chord 3 for progression 'new progression' with id fab55882-36a2-4d70-88b2-0483ace19c52...","level":"info"}
+{"message":"Storing chord 2 for progression 'new progression' with id fab55882-36a2-4d70-88b2-0483ace19c52...","level":"info"}
+{"message":"Storing chord 4 for progression 'new progression' with id fab55882-36a2-4d70-88b2-0483ace19c52...","level":"info"}
+{"message":"Storing chord 6 for progression 'new progression' with id fab55882-36a2-4d70-88b2-0483ace19c52...","level":"info"}
+{"message":"Storing chord 5 for progression 'new progression' with id fab55882-36a2-4d70-88b2-0483ace19c52...","level":"info"}
+{"message":"Progression with id 8dfd17e9-1219-44a0-b4d1-a64c14d55e4f deleted.","level":"info"}
+{"message":"Overwriting chord 0 for progression 'G' with id 21469cb0-87fc-449a-af59-8e2bb3f36147...","level":"info"}
+{"message":"Overwriting chord 2 for progression 'E' with id 21469cb0-87fc-449a-af59-8e2bb3f36147...","level":"info"}
+{"message":"Overwriting chord 3 for progression 'C' with id 21469cb0-87fc-449a-af59-8e2bb3f36147...","level":"info"}
+{"message":"Overwriting chord 6 for progression 'C' with id 21469cb0-87fc-449a-af59-8e2bb3f36147...","level":"info"}
+{"message":"Overwriting chord 5 for progression 'B' with id 21469cb0-87fc-449a-af59-8e2bb3f36147...","level":"info"}
+{"message":"Overwriting chord 1 for progression 'B' with id 21469cb0-87fc-449a-af59-8e2bb3f36147...","level":"info"}
+{"message":"Overwriting chord 4 for progression 'G' with id 21469cb0-87fc-449a-af59-8e2bb3f36147...","level":"info"}
+{"message":"Progression with id e77266b7-61f9-4e69-aa0a-98f3edcfd096 stored.","level":"info"}
+{"message":"Storing chord 0 for progression 'new progression' with id e77266b7-61f9-4e69-aa0a-98f3edcfd096...","level":"info"}
+{"message":"Storing chord 1 for progression 'new progression' with id e77266b7-61f9-4e69-aa0a-98f3edcfd096...","level":"info"}
+{"message":"Storing chord 2 for progression 'new progression' with id e77266b7-61f9-4e69-aa0a-98f3edcfd096...","level":"info"}
+{"message":"Storing chord 3 for progression 'new progression' with id e77266b7-61f9-4e69-aa0a-98f3edcfd096...","level":"info"}
+{"message":"Storing chord 4 for progression 'new progression' with id e77266b7-61f9-4e69-aa0a-98f3edcfd096...","level":"info"}
+{"message":"Storing chord 5 for progression 'new progression' with id e77266b7-61f9-4e69-aa0a-98f3edcfd096...","level":"info"}
+{"message":"Storing chord 6 for progression 'new progression' with id e77266b7-61f9-4e69-aa0a-98f3edcfd096...","level":"info"}
+{"message":"Overwriting chord 0 for progression 'G' with id 21469cb0-87fc-449a-af59-8e2bb3f36147...","level":"info"}
+{"message":"Overwriting chord 1 for progression 'B' with id 21469cb0-87fc-449a-af59-8e2bb3f36147...","level":"info"}
+{"message":"Overwriting chord 2 for progression 'E' with id 21469cb0-87fc-449a-af59-8e2bb3f36147...","level":"info"}
+{"message":"Overwriting chord 3 for progression 'C' with id 21469cb0-87fc-449a-af59-8e2bb3f36147...","level":"info"}
+{"message":"Overwriting chord 4 for progression 'G' with id 21469cb0-87fc-449a-af59-8e2bb3f36147...","level":"info"}
+{"message":"Overwriting chord 5 for progression 'B' with id 21469cb0-87fc-449a-af59-8e2bb3f36147...","level":"info"}
+{"message":"Overwriting chord 6 for progression 'C' with id 21469cb0-87fc-449a-af59-8e2bb3f36147...","level":"info"}
+{"message":"Progression with id fccad74a-18a5-4dcc-8cac-ecaa141e21d1 stored.","level":"info"}
+{"message":"Storing chord 0 for progression 'new progression' with id fccad74a-18a5-4dcc-8cac-ecaa141e21d1...","level":"info"}
+{"message":"Storing chord 1 for progression 'new progression' with id fccad74a-18a5-4dcc-8cac-ecaa141e21d1...","level":"info"}
+{"message":"Storing chord 2 for progression 'new progression' with id fccad74a-18a5-4dcc-8cac-ecaa141e21d1...","level":"info"}
+{"message":"Storing chord 3 for progression 'new progression' with id fccad74a-18a5-4dcc-8cac-ecaa141e21d1...","level":"info"}
+{"message":"Storing chord 6 for progression 'new progression' with id fccad74a-18a5-4dcc-8cac-ecaa141e21d1...","level":"info"}
+{"message":"Storing chord 5 for progression 'new progression' with id fccad74a-18a5-4dcc-8cac-ecaa141e21d1...","level":"info"}
+{"message":"Storing chord 4 for progression 'new progression' with id fccad74a-18a5-4dcc-8cac-ecaa141e21d1...","level":"info"}
+{"message":"Progression with id 8dfd17e9-1219-44a0-b4d1-a64c14d55e4f deleted.","level":"info"}
+{"message":"Overwriting chord 0 for progression 'G' with id 21469cb0-87fc-449a-af59-8e2bb3f36147...","level":"info"}
+{"message":"Overwriting chord 1 for progression 'B' with id 21469cb0-87fc-449a-af59-8e2bb3f36147...","level":"info"}
+{"message":"Overwriting chord 2 for progression 'E' with id 21469cb0-87fc-449a-af59-8e2bb3f36147...","level":"info"}
+{"message":"Overwriting chord 3 for progression 'C' with id 21469cb0-87fc-449a-af59-8e2bb3f36147...","level":"info"}
+{"message":"Overwriting chord 4 for progression 'G' with id 21469cb0-87fc-449a-af59-8e2bb3f36147...","level":"info"}
+{"message":"Overwriting chord 5 for progression 'B' with id 21469cb0-87fc-449a-af59-8e2bb3f36147...","level":"info"}
+{"message":"Overwriting chord 6 for progression 'C' with id 21469cb0-87fc-449a-af59-8e2bb3f36147...","level":"info"}
+{"message":"Progression with id cd02c33e-3e8c-45fd-887c-2db617be7359 stored.","level":"info"}
+{"message":"Storing chord 0 for progression 'new progression' with id cd02c33e-3e8c-45fd-887c-2db617be7359...","level":"info"}
+{"message":"Storing chord 1 for progression 'new progression' with id cd02c33e-3e8c-45fd-887c-2db617be7359...","level":"info"}
+{"message":"Storing chord 2 for progression 'new progression' with id cd02c33e-3e8c-45fd-887c-2db617be7359...","level":"info"}
+{"message":"Storing chord 3 for progression 'new progression' with id cd02c33e-3e8c-45fd-887c-2db617be7359...","level":"info"}
+{"message":"Storing chord 4 for progression 'new progression' with id cd02c33e-3e8c-45fd-887c-2db617be7359...","level":"info"}
+{"message":"Storing chord 5 for progression 'new progression' with id cd02c33e-3e8c-45fd-887c-2db617be7359...","level":"info"}
+{"message":"Storing chord 6 for progression 'new progression' with id cd02c33e-3e8c-45fd-887c-2db617be7359...","level":"info"}
+{"message":"Progression with id 8dfd17e9-1219-44a0-b4d1-a64c14d55e4f deleted.","level":"info"}
+{"message":"Overwriting chord 0 for progression 'G' with id 21469cb0-87fc-449a-af59-8e2bb3f36147...","level":"info"}
+{"message":"Overwriting chord 1 for progression 'B' with id 21469cb0-87fc-449a-af59-8e2bb3f36147...","level":"info"}
+{"message":"Overwriting chord 2 for progression 'E' with id 21469cb0-87fc-449a-af59-8e2bb3f36147...","level":"info"}
+{"message":"Overwriting chord 3 for progression 'C' with id 21469cb0-87fc-449a-af59-8e2bb3f36147...","level":"info"}
+{"message":"Overwriting chord 4 for progression 'G' with id 21469cb0-87fc-449a-af59-8e2bb3f36147...","level":"info"}
+{"message":"Overwriting chord 6 for progression 'C' with id 21469cb0-87fc-449a-af59-8e2bb3f36147...","level":"info"}
+{"message":"Overwriting chord 5 for progression 'B' with id 21469cb0-87fc-449a-af59-8e2bb3f36147...","level":"info"}
+{"message":"Progression with id fed86f75-b945-465a-b1ef-2cbc7dba437c stored.","level":"info"}
+{"message":"Storing chord 0 for progression 'new progression' with id fed86f75-b945-465a-b1ef-2cbc7dba437c...","level":"info"}
+{"message":"Storing chord 1 for progression 'new progression' with id fed86f75-b945-465a-b1ef-2cbc7dba437c...","level":"info"}
+{"message":"Storing chord 2 for progression 'new progression' with id fed86f75-b945-465a-b1ef-2cbc7dba437c...","level":"info"}
+{"message":"Storing chord 4 for progression 'new progression' with id fed86f75-b945-465a-b1ef-2cbc7dba437c...","level":"info"}
+{"message":"Storing chord 3 for progression 'new progression' with id fed86f75-b945-465a-b1ef-2cbc7dba437c...","level":"info"}
+{"message":"Storing chord 5 for progression 'new progression' with id fed86f75-b945-465a-b1ef-2cbc7dba437c...","level":"info"}
+{"message":"Storing chord 6 for progression 'new progression' with id fed86f75-b945-465a-b1ef-2cbc7dba437c...","level":"info"}
+{"message":"Overwriting chord 0 for progression 'G' with id 21469cb0-87fc-449a-af59-8e2bb3f36147...","level":"info"}
+{"message":"Overwriting chord 2 for progression 'E' with id 21469cb0-87fc-449a-af59-8e2bb3f36147...","level":"info"}
+{"message":"Overwriting chord 3 for progression 'C' with id 21469cb0-87fc-449a-af59-8e2bb3f36147...","level":"info"}
+{"message":"Overwriting chord 1 for progression 'B' with id 21469cb0-87fc-449a-af59-8e2bb3f36147...","level":"info"}
+{"message":"Overwriting chord 4 for progression 'G' with id 21469cb0-87fc-449a-af59-8e2bb3f36147...","level":"info"}
+{"message":"Progression with id 8dfd17e9-1219-44a0-b4d1-a64c14d55e4f deleted.","level":"info"}
+{"message":"Overwriting chord 5 for progression 'B' with id 21469cb0-87fc-449a-af59-8e2bb3f36147...","level":"info"}
+{"message":"Overwriting chord 6 for progression 'C' with id 21469cb0-87fc-449a-af59-8e2bb3f36147...","level":"info"}
+{"message":"Progression with id 94dc865e-e964-42b2-8df3-8aeb10d732d8 stored.","level":"info"}
+{"message":"Storing chord 0 for progression 'new progression' with id 94dc865e-e964-42b2-8df3-8aeb10d732d8...","level":"info"}
+{"message":"Storing chord 1 for progression 'new progression' with id 94dc865e-e964-42b2-8df3-8aeb10d732d8...","level":"info"}
+{"message":"Storing chord 2 for progression 'new progression' with id 94dc865e-e964-42b2-8df3-8aeb10d732d8...","level":"info"}
+{"message":"Storing chord 4 for progression 'new progression' with id 94dc865e-e964-42b2-8df3-8aeb10d732d8...","level":"info"}
+{"message":"Storing chord 3 for progression 'new progression' with id 94dc865e-e964-42b2-8df3-8aeb10d732d8...","level":"info"}
+{"message":"Storing chord 5 for progression 'new progression' with id 94dc865e-e964-42b2-8df3-8aeb10d732d8...","level":"info"}
+{"message":"Storing chord 6 for progression 'new progression' with id 94dc865e-e964-42b2-8df3-8aeb10d732d8...","level":"info"}
+{"message":"Progression with id 8dfd17e9-1219-44a0-b4d1-a64c14d55e4f deleted.","level":"info"}
+{"message":"Overwriting chord 0 for progression 'G' with id 21469cb0-87fc-449a-af59-8e2bb3f36147...","level":"info"}
+{"message":"Overwriting chord 1 for progression 'B' with id 21469cb0-87fc-449a-af59-8e2bb3f36147...","level":"info"}
+{"message":"Overwriting chord 2 for progression 'E' with id 21469cb0-87fc-449a-af59-8e2bb3f36147...","level":"info"}
+{"message":"Overwriting chord 3 for progression 'C' with id 21469cb0-87fc-449a-af59-8e2bb3f36147...","level":"info"}
+{"message":"Overwriting chord 4 for progression 'G' with id 21469cb0-87fc-449a-af59-8e2bb3f36147...","level":"info"}
+{"message":"Overwriting chord 5 for progression 'B' with id 21469cb0-87fc-449a-af59-8e2bb3f36147...","level":"info"}
+{"message":"Overwriting chord 6 for progression 'C' with id 21469cb0-87fc-449a-af59-8e2bb3f36147...","level":"info"}
+{"message":"Progression with id e73aa04d-858d-4239-8183-72132b077629 stored.","level":"info"}
+{"message":"Storing chord 0 for progression 'new progression' with id e73aa04d-858d-4239-8183-72132b077629...","level":"info"}
+{"message":"Storing chord 1 for progression 'new progression' with id e73aa04d-858d-4239-8183-72132b077629...","level":"info"}
+{"message":"Storing chord 4 for progression 'new progression' with id e73aa04d-858d-4239-8183-72132b077629...","level":"info"}
+{"message":"Storing chord 2 for progression 'new progression' with id e73aa04d-858d-4239-8183-72132b077629...","level":"info"}
+{"message":"Storing chord 3 for progression 'new progression' with id e73aa04d-858d-4239-8183-72132b077629...","level":"info"}
+{"message":"Storing chord 6 for progression 'new progression' with id e73aa04d-858d-4239-8183-72132b077629...","level":"info"}
+{"message":"Storing chord 5 for progression 'new progression' with id e73aa04d-858d-4239-8183-72132b077629...","level":"info"}
+{"message":"Progression with id 8dfd17e9-1219-44a0-b4d1-a64c14d55e4f deleted.","level":"info"}
+{"message":"Overwriting chord 0 for progression 'G' with id 21469cb0-87fc-449a-af59-8e2bb3f36147...","level":"info"}
+{"message":"Overwriting chord 2 for progression 'E' with id 21469cb0-87fc-449a-af59-8e2bb3f36147...","level":"info"}
+{"message":"Overwriting chord 3 for progression 'C' with id 21469cb0-87fc-449a-af59-8e2bb3f36147...","level":"info"}
+{"message":"Overwriting chord 1 for progression 'B' with id 21469cb0-87fc-449a-af59-8e2bb3f36147...","level":"info"}
+{"message":"Overwriting chord 4 for progression 'G' with id 21469cb0-87fc-449a-af59-8e2bb3f36147...","level":"info"}
+{"message":"Overwriting chord 5 for progression 'B' with id 21469cb0-87fc-449a-af59-8e2bb3f36147...","level":"info"}
+{"message":"Overwriting chord 6 for progression 'C' with id 21469cb0-87fc-449a-af59-8e2bb3f36147...","level":"info"}

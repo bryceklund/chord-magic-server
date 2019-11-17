@@ -1,0 +1,3 @@
+CREATE TABLE notes (
+    name TEXT PRIMARY KEY NOT NULL
+);

@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "pretest": "postgrator --config postgrator-test-config.js",
     "test": "mocha --require test/setup.js",
+    "posttest": "postgrator --config postgrator-test-config.js 0",
     "dev": "nodemon src/server.js",
     "start": "node src/server.js",
     "predeploy": "npm audit",

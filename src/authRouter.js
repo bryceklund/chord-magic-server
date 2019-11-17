@@ -31,7 +31,6 @@ authRouter.route('/api/login')
                             const payload = { userid: dbUser.id }
                             res.send({
                                 authToken: AuthService.createJwt(sub, payload),
-                                //userid: dbUser.id id is within authtoken
                             })
                         })
             })
