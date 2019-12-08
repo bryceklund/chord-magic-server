@@ -1,8 +1,8 @@
 # Chord Magic API
 
-This is the server and database repository that goes with !(Chord Magic)[https://github.com/bryceklund/chord-magic-client/].
+This is the server and database repository that goes with [Chord Magic](https://github.com/bryceklund/chord-magic-client/).
 
-The live app can be found !(here)[https://chord-magic.bryceklund.dev/].
+The live app can be found [here](https://chord-magic.bryceklund.dev/).
 
 ## Summary
 
