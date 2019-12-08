@@ -8,7 +8,7 @@ authRouter.route('/api/login')
     .post(bodyParser, (req, res, next) => {
         const knexInstance = req.app.get('db')
         const { username, password } = req.body
-        const loginUser = { username, password }
+        const loginUser = { username: username.toLowerCase(), password }
         Object.keys(loginUser).forEach(k => {
             if (loginUser[k] == null) {
                 return res.status(400).json({ error: `Missing ${key} in request body` }) 
